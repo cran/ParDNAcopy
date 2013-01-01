@@ -1,0 +1,2 @@
+export("parSegment")
+import("DNAcopy","parallel")
