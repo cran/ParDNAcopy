@@ -11,7 +11,7 @@ function(CNAobj,ranseed=NULL,distrib=c("vanilla","Rparallel"),
 	if(distrib=="Rparallel"){
 		ncores<-min(njobs,length(CNAobj),detectCores())
 		cl<-parallel::makeCluster(getOption("cl.cores",ncores))
-		parallel::clusterEvalQ(cl=cl,expr=library(DNAcopy))
+		parallel::clusterEvalQ(cl=cl,expr=requireNamespace("DNAcopy"))
 	}
 	processed<-switch(distrib,
 		vanilla=lapply(X=CNAobj,FUN=segmentWrapper,chrom=chrom,maploc=maploc,

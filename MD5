@@ -1,7 +1,5 @@
-a85a278814468d756b721e18303db228 *DESCRIPTION
+67930192a10fc00766bcdb8ef03b4a09 *DESCRIPTION
 6ccdfde6181f2afe8928b43ef85ee6af *NAMESPACE
-7cec1e497b77afbfd530965d629b962e *R/parSegment.R
+08f842ca61613f1b99faa1c097cc22a2 *R/parSegment.R
 4a11c119d27eda1f6b03b070976ee88a *R/segmentWrapper.R
 890718b991f8e3e5289fe1de92ec697e *man/parSegment.Rd
-c790f4c6ccad9d5811bc4f0ef4dbff7e *spares/ParDNAcopy-package.Rd
-27ab34fb1037c00d3de35a1df42fa658 *spares/segmentWrapper.Rd
